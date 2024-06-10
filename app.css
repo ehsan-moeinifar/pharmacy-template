@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    width:350px ;
+    height: 100vh;
+    background-color: #fff;
+    margin: 1rem auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2) ;
+}
+header{
+    background-image: linear-gradient(55deg, rgba(45,231,253,1) 37%, rgba(34,143,195,1) 100%);
+    border-radius: 0 0 1.3rem 1.3rem;
+    height: 15rem;
+}
+.container{
+    width: 310px ;
+    margin: 0 auto;
+}
+.nav{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-logo{
+    width: 1rem;
+    height: 1rem;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile-img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    margin-right: 0.5rem;
+}
+.page-title-title{
+    margin-bottom: 1rem;
+}
+.page-title-text{
+    color: rgb(120, 144, 156);
+    text-decoration: none;
+}
+.search-bar{
+margin-top: 1rem;
+width: 100%;
+height: 2rem;
+background-color: #fff;
+display: flex;
+align-items: center;
+border-radius: 0.5rem;
+margin-bottom: 1.5rem;
+}
+.search-btn{
+    width: 1.5rem;
+    height:1.5rem ;
+    border: none; 
+    background-color: #fff; 
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+.search-logo{
+    width: 1rem;
+    height:1rem ;
+}
+.search-input{
+margin-right: 1rem;
+border: none;
+margin-right: 1rem;
+outline: none;
+}
+.guide{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.guide-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} 
+.guide-number{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: rgba(45,231,253,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    outline: 2px solid rgba(45,231,253,1);
+    outline-offset: 2px; 
+}
+.guide-number__text{
+
+}
+.line{
+    background-color: gray;
+    width:2px ;
+    height: 2.5rem;
+    margin-top: 0.3rem;
+}
+.guide-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2) ;
+    border-radius:0.4rem ;
+}
+.guide-icon{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-color:rgba(255, 183, 77,30%);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+}
+.guide-step{
+    height: 3.5rem;
+    padding: 0.5rem;
+}
+.guide-step__title{
+    margin: 0 auto;
+}
+.guide-step__text{
+    font-size:xx-small;
+    width: 12rem;
+}
+.footer-btn{
+    width:100%;
+    height: 2rem;
+    margin-top: 1rem;
+    background-color: rgba(45,231,253,1);
+    color: #fff;
+    border-radius:0.4rem ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
